@@ -1,0 +1,54 @@
+.u-area {
+    margin: 0 10px;
+}
+.u-list-2col {
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+.u-list-2col li {
+    float: left;
+    width: 49%;
+    margin: 2% 0 0 0;
+    margin-right: 0px;
+}
+.u-list-2col li:nth-child(2n+1) {
+    margin-right: 2%;
+}
+.u-cat-item {
+    width: 100%;
+    height: 66px;
+    padding: 21px 6px 0;
+    background-color: #eee;
+    background-size: 100%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    color: #515151;
+    -webkit-box-sizing: border-box;
+}
+.u-cat-item h3 {
+    font-size: 13px;
+    line-height: 16px;
+}
+.u-cat-item .num {
+    font-size: 11px;
+    line-height: 1em;
+    color: #999;
+}
+.u-ttl {
+    margin-top: 10px;
+    position: relative;
+    line-height: 2.4em;
+    border-bottom: 1px solid #eee;
+    color: #8A8D8E;
+    -webkit-box-sizing: border-box;
+}
+.m-cat-male h1, .m-cat-female h1{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 2.4em;
+	color: #8A8D8E;
+	margin-left: 25px;
+	vertical-align: middle;
+	
+}

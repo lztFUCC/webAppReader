@@ -1,0 +1,84 @@
+.Swipe_full > div,
+.Swipe_full > div > div {
+    height: 100%;
+}
+/*首页顶栏固定*/
+.container-warp {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.container-scroll {
+	position: absolute;
+	top: 45px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow-y: scroll;
+}
+/*********************************************************************/
+.u-book {
+	width: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.book-cover{
+	position: relative;
+	width: 86px;
+	height: 113px;
+	background-color: #EEECE9;
+	box-shadow: 0 6px 5px -3px #aaa;
+	border: 1px solid #F0F0F0;
+	overflow: hidden;
+}
+
+.book-cover img{
+	width: 100%;
+	height: 100%;
+}
+.info {
+	padding-top: 8px;
+	margin-left: 0;
+}
+.title {
+	font-size: 13px;
+	line-height: 1.4em;
+	max-height: 2.8em;
+	overflow: hidden;
+	color: #8D8D8D;
+	margin-bottom: 0px;
+	font-weight: 400;
+}
+
+
+.top {
+	position: relative;
+	height: 44px;
+	border-bottom: 1px solid #ddd;
+	font: 15px/45px a;
+	color:rgba(0,0,0,0.7);
+	background-color: #efeff0;
+}
+.top__back {
+	float: left;
+	width: 42px;
+	height: 44px;
+}
+.top__back:before {
+	content: '';
+	display: block;
+	margin: 15px 0 0 16px;
+	width: 10px;
+	height: 16px;
+	background:url(/static/img/back.png) no-repeat;
+	background-size: 10px 16px;
+}
+
+.header-home {
+	float: right;
+	width: 44px;
+	height: 44px;
+	background: url(http://image.read.duokan.com/mfsv2/download/fdsc3/p01eZH42sBV7/QTS90E2ZVritaa.png) no-repeat center;
+	background-size: 16px;
+}

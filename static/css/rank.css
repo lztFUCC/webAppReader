@@ -1,0 +1,25 @@
+.original-rank-list__item {
+	padding: 12px 0 6px 20px;
+	border-bottom: 1px solid #EEE;
+	overflow: hidden;
+}
+
+.original-rank-list__content {
+	line-height: 26px;
+	font-size: 14px;
+	margin-left: 108px;
+	margin-top: 5px;
+	white-space: nowrap;
+}
+
+.original-rank-list__img {
+	width: 90px;
+	height: 90px;
+	float: left;
+}
+
+.original-rank-list__page {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
